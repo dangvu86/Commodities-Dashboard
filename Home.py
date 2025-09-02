@@ -113,7 +113,7 @@ if df_data is not None and df_list is not None:
             scrollable_container = f"""
             <div style="height: 500px; overflow-y: auto; width: 100%;">
                 {html_table}
-            </div>
+            
             """
         else:
             st.warning("No data matches your filter criteria.")
@@ -227,5 +227,6 @@ if df_data is not None and df_list is not None:
 
 else:
     st.error("Failed to load data files. Please check the 'data' directory.")
+
 
 
