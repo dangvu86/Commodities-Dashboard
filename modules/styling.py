@@ -288,7 +288,7 @@ def style_dataframe(df: pd.DataFrame):
                 ('padding', '10px'),
                 ('background-color', '#00816D'), # Màu nền là bắt buộc cho sticky header
                 ('color', '#f5f5f5'),
-                ('text-align', 'left'),
+                ('text-align', 'center'),
             ]
         },
         {
@@ -312,4 +312,5 @@ def style_dataframe(df: pd.DataFrame):
     
     styler = styler.hide(axis="index")
     
+
     return styler
