@@ -117,7 +117,7 @@ if df_data is not None and df_list is not None:
             """
         else:
             st.warning("No data matches your filter criteria.")
-        st.markdown(scrollable_container, unsafe_allow_html=True)
+        
 
         # --- DYNAMIC BAR CHART SECTION (using Plotly) ---
         st.markdown("""
@@ -227,3 +227,4 @@ if df_data is not None and df_list is not None:
 
 else:
     st.error("Failed to load data files. Please check the 'data' directory.")
+
